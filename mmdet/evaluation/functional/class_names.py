@@ -15,6 +15,12 @@ def voc_classes() -> list:
         'pottedplant', 'sheep', 'sofa', 'train', 'tvmonitor'
     ]
 
+def vivid_classes() -> list:
+    return [
+        'grape'
+    ]
+
+
 
 def imagenet_det_classes() -> list:
     """Class names of ImageNet Det."""
@@ -742,6 +748,7 @@ dataset_aliases = {
     'objects365v1': ['objects365v1', 'obj365v1'],
     'objects365v2': ['objects365v2', 'obj365v2'],
     'lvis': ['lvis', 'lvis_v1'],
+    'vivid': ['vivid', 'vivid_v1']
 }
 
 
